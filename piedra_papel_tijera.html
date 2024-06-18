@@ -229,6 +229,10 @@
             transition: 2s;
         }
 
+        .textos_jugadas3 {
+            display: none   ;
+        }
+
 
 
 
@@ -364,6 +368,26 @@
                 color: rgb(203, 81, 104);
             }
 
+            .container6 {
+                position: absolute; left: 750px; top: 340px;
+                border: 35px solid rgb(195, 106, 24);
+                width: 200px;
+                height: 200px;
+            }
+
+            .tijera2 {
+                position: absolute; left: 50px; top: 40px;
+                width: 85px;
+            }
+
+            .textos_jugadas3 {
+                color: rgb(248, 248, 248);
+                font-family: Inter ExtraBold;
+                font-size: 20px;
+                position: absolute; top: 250px; left: 450px;
+                letter-spacing: 2px;
+            }
+
 
 
 
@@ -453,7 +477,7 @@
                     document.getElementById("piedra2").style.left = "200px";
                 }
             }})
-
+            
             sleep(6000).then(() => { if (escoge == 0) {
                 contador = contador + 1;
                 conta.innerHTML = "0"+contador;
@@ -496,7 +520,6 @@
                     document.getElementById("papel2").style.left = "200px";
                 }
             }})
-
             sleep(6000).then(() => { if (escoge == 0) {
                 contador = contador + 1;
                 conta.innerHTML = "0"+contador;
@@ -551,6 +574,7 @@
     <div class="container6" id="tijera2"><img src="icon-scissors.svg" class="tijera2"></div>
     <div class="resultado" id="resultado"></div>
     <div class="boton_otra" id="otra" onclick="otra()">PLAY AGAIN</div>
+    <div class="textos_jugadas3" id="texto_temporal">Hola</div>
     
     
     
