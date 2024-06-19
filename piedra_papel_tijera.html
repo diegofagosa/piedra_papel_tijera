@@ -229,8 +229,71 @@
             transition: 2s;
         }
 
+        .cuadro2 {
+            display: none;
+        }
+        .titulo2 {
+            display: none;
+        }
+        .fonto_contador2 {
+            display: none;
+        }
+        .triangulo2 {
+            display: none;
+        }
+        .container7 {
+            display: none;
+        }
+        .papel3 {
+            display: none;
+        }
+        .container8 {
+            display: none;
+        }
+        .tijera3 {
+            display: none;
+        }
+        .container9 {
+            display: none;
+        }
+        .piedra3 {
+            display: none;
+        }
+        .boton_reglas2 {
+            display: none;
+        }
         .textos_jugadas3 {
-            display: none   ;
+            display: none;
+        }
+        .textos_jugadas4 {
+            display: none;
+        }
+        .circulo2 {
+            display: none;
+        }
+        .container10 {
+            display: none;
+        }
+        .papel4 {
+            display: none;
+        }
+        .container11 {
+            display: none;
+        }
+        .piedra4 {
+            display: none;
+        }
+        .boton_otra2 {
+            display: none;
+        }
+        .container12 {
+            display: none;
+        }
+        .tijera4 {
+            display: none;
+        }
+        .resultado2 {
+            display: none;
         }
 
 
@@ -238,61 +301,132 @@
 
         @media (min-width: 600px) {
             .cuadro {
+                display: none;
+            }
+            .cuadro2 {
+                display: block;
                 position: absolute; top: 40px; left: 350px;
                 width: 650px;
                 height: 120px;
+                border: 3px solid rgb(90, 108, 132);
+                border-radius: 10px;
             }
+            
             .titulo {
+                display: none;
+            }
+
+            .titulo2 {
+                display: inline;
                 position: absolute; top: 60px; left: 400px;
                 width: 150px;
+                height: auto;
             }
             .fonto_contador {
+                display: none;
+            }
+            .fonto_contador2 {
+                display: inline;
                 position: absolute; top: 60px; left: 860px;
+                box-shadow: 0px 8px 35px 0px  rgb(0, 0, 0);
+                border-radius: 5px;
                 width: 120px;
                 height: 80px;
-                font-size: 13px;
+                background: rgb(248, 248, 248);
+                text-align: center;
                 line-height: 50px;
-
+                font-size: 13px;
+                font-family: Inter;
+                letter-spacing: 1px;
+                color: rgb(28, 45, 129);
             }
             .triangulo {
+                display: none;
+            }
+            .triangulo2 {
+                display: inline;
                 position: absolute; top: 300px; left: 550px;
-                width: 300px;
-               
+                width: 300px;   
             }
             .container {
+                display: none;
+            }
+            .container7 {
+                display: inline;
                 position: absolute; left: 500px; top: 250px;
                 width: 130px;
+                border: 15px solid rgb(86, 110, 244);
                 height: 130px;
-                
+                border-radius: 50%;
+                background: white;
+                box-shadow: 0px 5px 0px 0px rgb(40, 69, 195), 0px 5px 0px 0px rgb(190, 192, 217) inset;
             }
             .papel {
+                display: none;
+            }
+            .papel3 {
+                display: inline;
                 position: absolute; top: 30px; left: 30px;
                 width: 45%;
             }
 
             .container2 {
+                display: none;
+            }
+            .container8 {
+                display: inline;
                 position: absolute; left: 750px; top: 250px;
                 width: 130px;
+                border: 15px solid rgb(235, 166, 37);
                 height: 130px;
-                
+                border-radius: 50%;
+                background: white;
+                box-shadow: 0px 5px 0px 0px rgb(195, 106, 24), 0px 5px 0px 0px rgb(190, 192, 217) inset;
             }
             .tijera {
+                display: none;
+            }
+            .tijera3 {
+                display: inline;
                 position: absolute; top: 30px; left: 40px;
                 width: 45%;
             }
 
             .container3 {
+                display: none;
+            }
+            .container9 {
+                display: inline;
                 position: absolute; left: 620px; top: 450px;
                 width: 130px;
+                border: 15px solid rgb(227, 57, 86);
                 height: 130px;
-                
+                border-radius: 50%;
+                background: white;
+                box-shadow: 0px 5px 0px 0px rgb(154, 25, 56), 0px 5px 0px 0px rgb(190, 192, 217) inset;
             }
             .piedra {
+                display: none;
+            }
+            .piedra3 {
+                display: inline;
                 position: absolute; top: 35px; left: 40px;
                 width: 45%;
             }
             .boton_reglas {
+                display: none;
+            }
+            .boton_reglas2 {
+                display: inline;
                 position: absolute; left: 1200px; top: 670px;
+                text-align: center;
+                line-height: 30px;
+                width: 130px;
+                height: 35px;
+                border: 2px solid rgb(137, 143, 169);
+                border-radius: 10px;
+                font-family: Inter;
+                color: white;
             }
 
             .reglas {
@@ -320,76 +454,148 @@
             .contador {
                 position: absolute; top: 90px; left: 890px;
                 font-size: 40px;
+                z-index: 2;
             }
 
             .textos_jugadas1 {
+                display: none;
+            }
+            .textos_jugadas3 {
+                display: none;
+                color: rgb(248, 248, 248);
+                position: absolute; top: 250px; left: 430px;
+                font-family: Inter ExtraBold;
                 font-size: 20px;
-                position: absolute; top: 250px; left: 450px;
                 letter-spacing: 2px;
             }
 
             .textos_jugadas2 {
+                display: none;
+            }
+            .textos_jugadas4 {
+                display: none;
+                color: rgb(248, 248, 248);
+                position: absolute; top: 250px; left: 780px;
+                font-family: Inter ExtraBold;
                 font-size: 20px;
-                position: absolute; top: 250px; left: 750px;
                 letter-spacing: 2px;
             }
             
             .circulo {
+                display: none;
+            }
+            .circulo2 {
+                display: none;
+                background: rgba(0, 0, 0, 0.200);
                 width: 200px;
                 height: 200px;
-                position: absolute; top: 350px; left: 750px;
+                border-radius: 50%;
+                position: absolute; top: 350px; left: 800px;
+                transition: 1s;
             }
 
             .container4 {
-                position: absolute; left: 350px; top: 340px;
-                border: 35px solid rgb(86, 110, 244);
-                width: 200px;
-                height: 200px;
+                display: none;
             }
-            
+            .container10 {
+                display: none;
+                position: absolute; left: 350px; top: 340px;
+                width: 200px;
+                border: 35px solid rgb(86, 110, 244);
+                height: 200px;
+                border-radius: 50%;
+                background: white;
+                box-shadow: 0px 12px 0px 0px rgb(40, 69, 195), 0px 12px 0px 0px rgb(190, 192, 217) inset;
+                transition: 1s;
+            }    
             .papel2 {
+                display: none;
+            }
+            .papel4 {
+                display: inline;
                 position: absolute; left: 50px; top: 40px;
                 width: 85px;
             }
 
             .container5 {
+                display: none;
+            }
+            .container11 {
+                display: none;
                 position: absolute; left: 750px; top: 340px;
-                border: 35px solid rgb(227, 57, 86);
                 width: 200px;
+                border: 35px solid rgb(227, 57, 86);
                 height: 200px;
+                border-radius: 50%;
+                background: white;
+                box-shadow: 0px 5px 0px 0px rgb(154, 25, 56), 0px 5px 0px 0px rgb(190, 192, 217) inset;
+                transition: 1s;
             }
             
             .piedra2 {
-                position: absolute; left: 50px; top: 40px;
+                display: none;
+            }
+            .piedra4 {
+                display: inline;
+                position: absolute; left: 50px; top: 50px;
                 width: 85px;
             }
 
-            .boton_otra:hover {
+            .boton_otra {
+                display: none;
+            }
+
+            .boton_otra2 {
+                display: none;
+                background: rgb(248, 248, 248);
+                font-family: Inter;
+                color: rgb(66, 65, 83);
+                width: 200px;
+                height: 50px;
+                border-radius: 10px;
+                position: absolute; top: 530px; left: 560px;
+                text-align: center;
+                line-height: 45px;
+                letter-spacing: 2px;
+                transition: 2s;
+            }
+
+            .boton_otra2:hover {
                 color: rgb(203, 81, 104);
             }
 
             .container6 {
-                position: absolute; left: 750px; top: 340px;
-                border: 35px solid rgb(195, 106, 24);
-                width: 200px;
-                height: 200px;
+                display: none;
             }
-
+            .container12 {
+                display: none;
+                position: absolute; left: 750px; top: 340px;
+                width: 200px;
+                border: 35px solid rgb(235, 166, 37);
+                height: 200px;
+                border-radius: 50%;
+                background: white;
+                box-shadow: 0px 5px 0px 0px rgb(195, 106, 24), 0px 5px 0px 0px rgb(190, 192, 217) inset;
+                transition: 1s;
+            }
             .tijera2 {
-                position: absolute; left: 50px; top: 40px;
+                display: none;
+            }
+            .tijera4 {
+                display: inline;
+                position: absolute; left: 50px; top: 45px;
                 width: 85px;
             }
-
-            .textos_jugadas3 {
-                color: rgb(248, 248, 248);
-                font-family: Inter ExtraBold;
-                font-size: 20px;
-                position: absolute; top: 250px; left: 450px;
-                letter-spacing: 2px;
+            .resultado {
+                display: none;
             }
-
-
-
+            .resultado2 {
+                display: none;
+                font-size: 40px;
+                color: white;
+                font-family: Inter ExtraBold;
+                position: absolute; left: 570px; top: 465px;
+            }
 
         }
     </style>
@@ -436,7 +642,16 @@
 
             sleep(6000).then(() => { if (escoge == 0) {
                 contador = contador + 1;
-                conta.innerHTML = "0"+contador;
+                if (contador < 0) {
+                    conta.innerHTML = contador;
+                } else {
+                    if (contador < 9) {
+                        conta.innerHTML = "0"+contador;
+                    }
+                    else {
+                        conta.innerHTML = contador;
+                    }
+                }
                 resultado.innerHTML = "YOU WIN";
                 document.getElementById("papel2").style.boxShadow = "0px 5px 0px 0px #2845c3, 0px 5px 0px 0px #bec0d9 inset, 10px 10px 0px 15px #ffffff0b, 10px 10px 0px 40px #ffffff09, 10px 10px 0px 70px #ffffff04";
                 document.getElementById("resultado").style.display = "inline";
@@ -444,7 +659,16 @@
             } else {
                 if (escoge == 1) {
                     contador = contador - 1;
-                    conta.innerHTML = "0"+contador;
+                    if (contador < 0) {
+                        conta.innerHTML = contador;
+                    } else {
+                        if (contador < 9) {
+                            conta.innerHTML = "0"+contador;
+                        }
+                        else {
+                            conta.innerHTML = contador;
+                        }
+                    }
                     resultado.innerHTML = "YOU LOSE";
                     document.getElementById("papel2").style.boxShadow = "0px 5px 0px 0px #2845c3, 0px 5px 0px 0px #bec0d9 inset, 10px 10px 0px 15px #ffffff0b, 10px 10px 0px 40px #ffffff09, 10px 10px 0px 70px #ffffff04";
                     document.getElementById("resultado").style.display = "inline";
@@ -480,7 +704,16 @@
             
             sleep(6000).then(() => { if (escoge == 0) {
                 contador = contador + 1;
-                conta.innerHTML = "0"+contador;
+                if (contador < 0) {
+                    conta.innerHTML = contador;
+                } else {
+                    if (contador < 9) {
+                        conta.innerHTML = "0"+contador;
+                    }
+                    else {
+                        conta.innerHTML = contador;
+                    }
+                }
                 resultado.innerHTML = "YOU WIN";
                 document.getElementById("tijera2").style.boxShadow = "0px 5px 0px 0px #c36a18, 0px 5px 0px 0px #bec0d9 inset, 10px 10px 0px 15px #ffffff0b, 10px 10px 0px 40px #ffffff09, 10px 10px 0px 70px #ffffff04";
                 document.getElementById("resultado").style.display = "inline";
@@ -488,7 +721,16 @@
             } else {
                 if (escoge == 1) {
                     contador = contador - 1;
-                    conta.innerHTML = "0"+contador;
+                    if (contador < 0) {
+                        conta.innerHTML = contador;
+                    } else {
+                        if (contador < 9) {
+                            conta.innerHTML = "0"+contador;
+                        }
+                        else {
+                            conta.innerHTML = contador;
+                        }
+                    }
                     resultado.innerHTML = "YOU LOSE";
                     document.getElementById("tijera2").style.boxShadow = "0px 5px 0px 0px #c36a18, 0px 5px 0px 0px #bec0d9 inset, 10px 10px 0px 15px #ffffff0b, 10px 10px 0px 40px #ffffff09, 10px 10px 0px 70px #ffffff04";
                     document.getElementById("resultado").style.display = "inline";
@@ -522,7 +764,16 @@
             }})
             sleep(6000).then(() => { if (escoge == 0) {
                 contador = contador + 1;
-                conta.innerHTML = "0"+contador;
+                if (contador < 0) {
+                    conta.innerHTML = contador;
+                } else {
+                    if (contador < 9) {
+                        conta.innerHTML = "0"+contador;
+                    }
+                    else {
+                        conta.innerHTML = contador;
+                    }
+                }
                 resultado.innerHTML = "YOU WIN";
                 document.getElementById("piedra2").style.boxShadow = "0px 5px 0px 0px #9a1938, 0px 5px 0px 0px #bec0d9 inset, 10px 10px 0px 15px #ffffff0b, 10px 10px 0px 40px #ffffff09, 10px 10px 0px 70px #ffffff04";
                 document.getElementById("resultado").style.display = "inline";
@@ -530,13 +781,244 @@
             } else {
                 if (escoge == 1) {
                     contador = contador - 1;
-                    conta.innerHTML = "0"+contador;
+                    if (contador < 0) {
+                        conta.innerHTML = contador;
+                    } else {
+                        if (contador < 9) {
+                            conta.innerHTML = "0"+contador;
+                        }
+                        else {
+                            conta.innerHTML = contador;
+                        }
+                    }
                     resultado.innerHTML = "YOU LOSE";
                     document.getElementById("piedra2").style.boxShadow = "0px 5px 0px 0px #9a1938, 0px 5px 0px 0px #bec0d9 inset, 10px 10px 0px 15px #ffffff0b, 10px 10px 0px 40px #ffffff09, 10px 10px 0px 70px #ffffff04";
                     document.getElementById("resultado").style.display = "inline";
                     document.getElementById("otra").style.display = "block";
                 }
             }})
+        }
+        function papel2() {
+            document.getElementById("textos3").style.left = "430px";
+            document.getElementById("textos4").style.display = "700px";
+            document.getElementById("circulo2").style.left = "800px";
+            document.getElementById("piedra4").style.boxShadow = "0px 12px 0px 0px #9a1938, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("papel4").style.boxShadow = "0px 12px 0px 0px #2845c3, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("tijera4").style.boxShadow = "0px 12px 0px 0px #c36a18, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("triangulo2").style.display = "none";
+            document.getElementById("tijera3").style.display = "none";
+            document.getElementById("piedra3").style.display = "none";
+            document.getElementById("papel3").style.display = "none";
+            document.getElementById("textos3").style.display = "inline";
+            document.getElementById("textos4").style.display = "inline";
+            document.getElementById("circulo2").style.display = "inline";
+            document.getElementById("papel4").style.display = "inline";
+            document.getElementById("papel4").style.left = "350px";
+            escoge = Math.floor(Math.random() * 2) //0. piedra 1. tijera
+            sleep(4000).then(() => {if (escoge == 0) {
+                document.getElementById("piedra4").style.display = "inline";
+                document.getElementById("piedra4").style.left = "750px";
+            } else {
+                if (escoge == 1) {
+                    document.getElementById("tijera4").style.display = "inline";
+                    document.getElementById("tijera4").style.left = "750px";
+                }
+            }})
+
+            sleep(6000).then(() => { if (escoge == 0) {
+                contador = contador + 1;
+                if (contador < 0) {
+                    conta.innerHTML = contador;
+                } else {
+                    if (contador < 9) {
+                        conta.innerHTML = "0"+contador;
+                    }
+                    else {
+                        conta.innerHTML = contador;
+                    }
+                }
+                resultado2.innerHTML = "YOU WIN";
+                document.getElementById("papel4").style.boxShadow = "0px 12px 0px 0px #2845c3, 0px 12px 0px 0px #bec0d9 inset, 10px 10px 0px 50px #ffffff0b, 10px 10px 0px 100px #ffffff09, 10px 10px 0px 170px #ffffff04";
+                document.getElementById("papel4").style.left = "150px";
+                document.getElementById("textos3").style.left = "250px";
+                document.getElementById("piedra4").style.left = "900px";
+                document.getElementById("circulo2").style.left = "950px";
+                document.getElementById("textos4").style.left = "850px";
+                document.getElementById("resultado2").style.display = "inline";
+                document.getElementById("otra2").style.display = "block";
+            } else {
+                if (escoge == 1) {
+                    contador = contador - 1;
+                    if (contador < 0) {
+                        conta.innerHTML = contador;
+                    } else {
+                        if (contador < 9) {
+                            conta.innerHTML = "0"+contador;
+                        }
+                        else {
+                            conta.innerHTML = contador;
+                        }
+                    }
+                    resultado2.innerHTML = "YOU LOSE";
+                    document.getElementById("tijera4").style.boxShadow = "0px 12px 0px 0px #c36a18, 0px 12px 0px 0px #bec0d9 inset, 10px 10px 0px 50px #ffffff0b, 10px 10px 0px 100px #ffffff09, 10px 10px 0px 170px #ffffff04";
+                    document.getElementById("papel4").style.left = "150px";
+                    document.getElementById("textos3").style.left = "250px";
+                    document.getElementById("tijera4").style.left = "900px";
+                    document.getElementById("circulo2").style.left = "950px";
+                    document.getElementById("textos4").style.left = "850px";
+                    document.getElementById("resultado2").style.display = "inline";
+                    document.getElementById("otra2").style.display = "block";
+                }
+            }})
+
+        }
+        function tijera2() {
+            document.getElementById("textos3").style.left = "430px";
+            document.getElementById("textos4").style.display = "700px";
+            document.getElementById("circulo2").style.left = "800px";
+            document.getElementById("piedra4").style.boxShadow = "0px 12px 0px 0px #9a1938, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("papel4").style.boxShadow = "0px 12px 0px 0px #2845c3, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("tijera4").style.boxShadow = "0px 12px 0px 0px #c36a18, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("triangulo2").style.display = "none";
+            document.getElementById("tijera3").style.display = "none";
+            document.getElementById("piedra3").style.display = "none";
+            document.getElementById("papel3").style.display = "none";
+            document.getElementById("textos3").style.display = "inline";
+            document.getElementById("textos4").style.display = "inline";
+            document.getElementById("circulo2").style.display = "inline";
+            document.getElementById("tijera4").style.display = "inline";
+            document.getElementById("tijera4").style.left = "350px";
+            escoge = Math.floor(Math.random() * 2) //0. papel 1. piedra
+            sleep(4000).then(() => {if (escoge == 0) {
+                document.getElementById("papel4").style.display = "inline";
+                document.getElementById("papel4").style.left = "750px";
+            } else {
+                if (escoge == 1) {
+                    document.getElementById("piedra4").style.display = "inline";
+                    document.getElementById("piedra4").style.left = "750px";
+                }
+            }})
+
+            sleep(6000).then(() => { if (escoge == 0) {
+                contador = contador + 1;
+                if (contador < 0) {
+                    conta.innerHTML = contador;
+                } else {
+                    if (contador < 9) {
+                        conta.innerHTML = "0"+contador;
+                    }
+                    else {
+                        conta.innerHTML = contador;
+                    }
+                }
+                resultado2.innerHTML = "YOU WIN";
+                document.getElementById("tijera4").style.boxShadow = "0px 12px 0px 0px #c36a18, 0px 12px 0px 0px #bec0d9 inset, 10px 10px 0px 50px #ffffff0b, 10px 10px 0px 100px #ffffff09, 10px 10px 0px 170px #ffffff04";
+                document.getElementById("tijera4").style.left = "150px";
+                document.getElementById("textos3").style.left = "250px";
+                document.getElementById("papel4").style.left = "900px";
+                document.getElementById("circulo2").style.left = "950px";
+                document.getElementById("textos4").style.left = "850px";
+                document.getElementById("resultado2").style.display = "inline";
+                document.getElementById("otra2").style.display = "block";
+            } else {
+                if (escoge == 1) {
+                    contador = contador - 1;
+                    if (contador < 0) {
+                        conta.innerHTML = contador;
+                    } else {
+                        if (contador < 9) {
+                            conta.innerHTML = "0"+contador;
+                        }
+                        else {
+                            conta.innerHTML = contador;
+                        }
+                    }
+                    resultado2.innerHTML = "YOU LOSE";
+                    document.getElementById("piedra4").style.boxShadow = "0px 12px 0px 0px #9a1938, 0px 12px 0px 0px #bec0d9 inset, 10px 10px 0px 50px #ffffff0b, 10px 10px 0px 100px #ffffff09, 10px 10px 0px 170px #ffffff04";
+                    document.getElementById("tijera4").style.left = "150px";
+                    document.getElementById("textos3").style.left = "250px";
+                    document.getElementById("piedra4").style.left = "900px";
+                    document.getElementById("circulo2").style.left = "950px";
+                    document.getElementById("textos4").style.left = "850px";
+                    document.getElementById("resultado2").style.display = "inline";
+                    document.getElementById("otra2").style.display = "block";
+                }
+            }})
+
+        }
+        function piedra2() {
+            document.getElementById("textos3").style.left = "430px";
+            document.getElementById("textos4").style.display = "700px";
+            document.getElementById("circulo2").style.left = "800px";
+            document.getElementById("piedra4").style.boxShadow = "0px 12px 0px 0px #9a1938, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("papel4").style.boxShadow = "0px 12px 0px 0px #2845c3, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("tijera4").style.boxShadow = "0px 12px 0px 0px #c36a18, 0px 12px 0px 0px #bec0d9 inset";
+            document.getElementById("triangulo2").style.display = "none";
+            document.getElementById("tijera3").style.display = "none";
+            document.getElementById("piedra3").style.display = "none";
+            document.getElementById("papel3").style.display = "none";
+            document.getElementById("textos3").style.display = "inline";
+            document.getElementById("textos4").style.display = "inline";
+            document.getElementById("circulo2").style.display = "inline";
+            document.getElementById("piedra4").style.display = "inline";
+            document.getElementById("piedra4").style.left = "350px";
+            escoge = Math.floor(Math.random() * 2) //0. tijera 1. papel
+            sleep(4000).then(() => {if (escoge == 0) {
+                document.getElementById("tijera4").style.display = "inline";
+                document.getElementById("tijera4").style.left = "750px";
+            } else {
+                if (escoge == 1) {
+                    document.getElementById("papel4").style.display = "inline";
+                    document.getElementById("papel4").style.left = "750px";
+                }
+            }})
+
+            sleep(6000).then(() => { if (escoge == 0) {
+                contador = contador + 1;
+                if (contador < 0) {
+                    conta.innerHTML = contador;
+                } else {
+                    if (contador < 9) {
+                        conta.innerHTML = "0"+contador;
+                    }
+                    else {
+                        conta.innerHTML = contador;
+                    }
+                }
+                resultado2.innerHTML = "YOU WIN";
+                document.getElementById("piedra4").style.boxShadow = "0px 12px 0px 0px #9a1938, 0px 12px 0px 0px #bec0d9 inset, 10px 10px 0px 50px #ffffff0b, 10px 10px 0px 100px #ffffff09, 10px 10px 0px 170px #ffffff04";
+                document.getElementById("piedra4").style.left = "150px";
+                document.getElementById("textos3").style.left = "250px";
+                document.getElementById("tijera4").style.left = "900px";
+                document.getElementById("circulo2").style.left = "950px";
+                document.getElementById("textos4").style.left = "850px";
+                document.getElementById("resultado2").style.display = "inline";
+                document.getElementById("otra2").style.display = "block";
+            } else {
+                if (escoge == 1) {
+                    contador = contador - 1;
+                    if (contador < 0) {
+                        conta.innerHTML = contador;
+                    } else {
+                        if (contador < 9) {
+                            conta.innerHTML = "0"+contador;
+                        }
+                        else {
+                            conta.innerHTML = contador;
+                        }
+                    }
+                    resultado2.innerHTML = "YOU LOSE";
+                    document.getElementById("papel4").style.boxShadow = "0px 12px 0px 0px #2845c3, 0px 12px 0px 0px #bec0d9 inset, 10px 10px 0px 50px #ffffff0b, 10px 10px 0px 100px #ffffff09, 10px 10px 0px 170px #ffffff04";
+                    document.getElementById("piedra4").style.left = "150px";
+                    document.getElementById("textos3").style.left = "250px";
+                    document.getElementById("papel4").style.left = "900px";
+                    document.getElementById("circulo2").style.left = "950px";
+                    document.getElementById("textos4").style.left = "850px";
+                    document.getElementById("resultado2").style.display = "inline";
+                    document.getElementById("otra2").style.display = "block";
+                }
+            }})
+
         }
         function otra() {
             document.getElementById("otra").style.display = "none";
@@ -551,6 +1033,20 @@
             document.getElementById("tijera").style.display = "inline";
             document.getElementById("piedra").style.display = "inline";
             document.getElementById("papel").style.display = "inline";
+        }
+        function otra2() {
+            document.getElementById("otra2").style.display = "none";
+            document.getElementById("resultado2").style.display = "none";
+            document.getElementById("piedra4").style.display = "none";
+            document.getElementById("tijera4").style.display = "none";
+            document.getElementById("papel4").style.display = "none";
+            document.getElementById("circulo2").style.display = "none";
+            document.getElementById("textos3").style.display = "none";
+            document.getElementById("textos4").style.display = "none";
+            document.getElementById("triangulo2").style.display = "inline";
+            document.getElementById("tijera3").style.display = "inline";
+            document.getElementById("piedra3").style.display = "inline";
+            document.getElementById("papel3").style.display = "inline";
         }
     </script>
 </head>
@@ -574,9 +1070,22 @@
     <div class="container6" id="tijera2"><img src="icon-scissors.svg" class="tijera2"></div>
     <div class="resultado" id="resultado"></div>
     <div class="boton_otra" id="otra" onclick="otra()">PLAY AGAIN</div>
-    <div class="textos_jugadas3" id="texto_temporal">Hola</div>
-    
-    
+    <div class="cuadro2"></div>
+    <div><img src="logo.svg" class="titulo2"></div>
+    <div class="fonto_contador2">SCORE</div>
+    <div><img src="bg-triangle.svg" class="triangulo2" id="triangulo2"></div>
+    <div class="container7" id="papel3" onclick="papel2()"><img src="icon-paper.svg" class="papel3"></div>
+    <div class="container8" id="tijera3" onclick="tijera2()"><img src="icon-scissors.svg" class="tijera3"></div>
+    <div class="container9" id="piedra3" onclick="piedra2()"><img src="icon-rock.svg" class="piedra3"></div>
+    <div class="boton_reglas2" onclick="reglas()">RULES</div>
+    <div class="textos_jugadas3" id="textos3">YOU PICKED</div>
+    <div class="textos_jugadas4" id="textos4">THE HOUSE PICKED</div>
+    <div class="circulo2" id="circulo2"></div>
+    <div class="container10" id="papel4"><img src="icon-paper.svg" class="papel4"></div>
+    <div class="container11" id="piedra4"><img src="icon-rock.svg" class="piedra4"></div>
+    <div class="container12" id="tijera4"><img src="icon-scissors.svg" class="tijera4"></div>
+    <div class="resultado2" id="resultado2"></div>
+    <div class="boton_otra2" id="otra2" onclick="otra2()">PLAY AGAIN</div>
     
 </body>
 </html>
